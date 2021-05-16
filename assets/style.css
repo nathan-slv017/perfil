@@ -1,0 +1,39 @@
+body{
+    background-color: #c8ad8f;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img{
+    background-image: url(img/foto.jpeg);
+    width: 350px;
+    background-size:contain;
+    height: 350px;
+    margin: auto auto;
+    margin-top: 40px;
+    position:relative;
+    border-radius: 10px;
+}
+
+.img div{
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    right: 20%;
+}
+.img div h1{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+}
+.img div p{
+    font-size: 18px;
+    margin-left: 10px;
+    color: aliceblue;
+}
+
+.redes{
+    width: 250px;
+    height: 100px;
+    background-color: white;
+    margin: 0 auto;
+    border-radius: 0px 0 20px 20px ;
+}
